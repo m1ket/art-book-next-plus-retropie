@@ -101,6 +101,13 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>2</zIndex>
          <color>${systemBackgroundColor}</color>
       </image>
+      <image name="controller" extra="true">
+        <path>./_inc/images/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.12 0.61</pos>
+        <maxSize>0.32 0.32</maxSize>
+    </image>      
    </view>
 
    <view name="basic,detailed,video">
